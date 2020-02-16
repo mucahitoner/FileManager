@@ -1,0 +1,100 @@
+.fluid{
+  max-width: 50%;
+  margin: 10px;
+  height: 50%;
+}
+
+.bg-success{
+  height: 110px;
+}
+
+#filerenamelabel{
+  display: block;
+  height: 30px;
+  max-width: 200px;
+}
+
+::-moz-selection {
+color: #fff;
+background: #da4b4b;
+}
+::selection {
+color: #fff; 
+background: #da4b4b;
+}
+
+.filerenameview{
+  max-width: 80%;
+}
+
+#filerenamelabel input{
+  border:none;
+  background-color: transparent;
+}
+
+#filerenametext{
+  display: none;
+}
+
+#sonuc{
+  font-size: 30px;
+  color:black;
+  display: none;
+}
+
+#desteklenmeyen{
+  display: none;
+}
+
+#myInput{
+  height: 3rem;
+}
+
+html,body{
+  background-color: white;
+  height:100%;
+}
+
+h3{
+  font-size: 20px;
+}
+
+.icerik i{
+  font-size: 40px;
+}
+
+.icerik{
+  margin-bottom: 70px;
+}
+
+.breadcrumb{
+  background-color:#e9ecef;
+}
+
+.height{
+  height: 50px;
+}
+
+#newfile, #newfolder, #upload{
+  bottom: 50px;
+  position:fixed;
+  display: none;
+  z-index:99;
+  background-color: white;
+  width: 100%;
+  height:175px;
+}
+
+#file  {
+ top:0;
+ position:absolute;
+ display: none;
+ z-index:99;
+ background-color: white;
+ width: 100%;
+ height:100%;
+}
+
+#error .fa-exclamation-circle  {
+ font-size:25px;
+}
